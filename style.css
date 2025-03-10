@@ -1,0 +1,17 @@
+#foodDiv {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    place-items: center;
+    text-align: center;
+}
+
+.newDiv {
+    box-shadow: 5px 5px 10px gray;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.section {
+    background-color: rgb(219, 219, 34);
+}
